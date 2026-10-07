@@ -1,0 +1,88 @@
+ABC라이프케어 랜딩 페이지 이미지 생성 프롬프트
+==================================================
+사용법
+1) 아래 [프롬프트] 블록을 그대로 복사해 이미지 생성 AI(Midjourney, DALL·E, Imagen, Firefly 등)에 붙여넣으세요.
+2) 생성된 이미지를 index.html과 같은 폴더의 images/ 폴더에 [파일명] 그대로 저장하면 페이지에 자동으로 표시됩니다.
+   (이미지가 없으면 파스텔 그라데이션 배경이 대신 표시됩니다.)
+3) 모든 프롬프트에는 페이지 톤에 맞춘 공통 스타일이 이미 포함되어 있습니다.
+4) Midjourney 사용 시 프롬프트 끝의 --ar 비율 옵션을 그대로 쓰고, 다른 도구에서는 해당 부분을 지우고 비율을 따로 지정하세요.
+
+
+--------------------------------------------------
+1. 히어로 메인 이미지
+[파일명] images/hero.jpg
+[권장 비율] 4:3.4 (가로형, 예: 1600x1360)
+[프롬프트]
+A warm, calm consultation scene in a bright minimalist room: a friendly Korean counselor in her 40s talking with a middle-aged Korean couple at a light wooden table, soft natural daylight from a large window, potted plants, cups of tea and a notebook on the table, gentle smiles, sense of trust and comfort, soft pastel color palette of powder blue, mint, blush pink and lavender, clean uncluttered composition with negative space, editorial lifestyle photography, shallow depth of field, soft diffused light, high detail, no text, no logos --ar 4:3
+
+
+--------------------------------------------------
+2. 서비스 카드 - 건강
+[파일명] images/service-health.jpg
+[권장 비율] 1:1 (예: 1024x1024)
+[프롬프트]
+Minimalist still life illustration representing health and wellbeing: a stethoscope, a glass of water, a small green plant and a heart shape arranged simply on a soft pastel mint background, flat soft 3D style with rounded shapes, gentle shadows, calm and reassuring mood, pastel palette of mint green, white and light blue, centered composition with generous empty space, no text, no logos --ar 1:1
+
+
+--------------------------------------------------
+3. 서비스 카드 - 재무
+[파일명] images/service-finance.jpg
+[권장 비율] 1:1 (예: 1024x1024)
+[프롬프트]
+Minimalist still life illustration representing personal finance planning: a small piggy bank, stacked coins, a simple rising bar chart card and a calculator arranged neatly on a soft pastel butter yellow background, flat soft 3D style with rounded shapes, gentle shadows, optimistic and stable mood, pastel palette of butter yellow, cream and light peach, centered composition with generous empty space, no text, no numbers, no logos --ar 1:1
+
+
+--------------------------------------------------
+4. 서비스 카드 - 가족
+[파일명] images/service-family.jpg
+[권장 비율] 1:1 (예: 1024x1024)
+[프롬프트]
+Minimalist still life illustration representing family and relationships: a small cozy house shape, two adult and two child figurines holding hands, and a soft heart, arranged simply on a soft pastel blush pink background, flat soft 3D style with rounded shapes, gentle shadows, warm and caring mood, pastel palette of blush pink, peach and white, centered composition with generous empty space, no text, no logos --ar 1:1
+
+
+--------------------------------------------------
+5. 서비스 카드 - 은퇴
+[파일명] images/service-retire.jpg
+[권장 비율] 1:1 (예: 1024x1024)
+[프롬프트]
+Minimalist still life illustration representing a happy retirement: a comfortable armchair, a small hourglass, a teacup, a sun hat and a tiny travel suitcase arranged simply on a soft pastel lavender background, flat soft 3D style with rounded shapes, gentle shadows, peaceful and hopeful mood, pastel palette of lavender, lilac and soft white, centered composition with generous empty space, no text, no logos --ar 1:1
+
+
+--------------------------------------------------
+6. 후기 프로필 - 50대 (은퇴 상담)
+[파일명] images/review-1.jpg
+[권장 비율] 1:1 (예: 512x512, 원형으로 잘려 표시됨)
+[프롬프트]
+Close-up portrait of a smiling Korean man in his late 50s, short gray hair, wearing a light blue knit sweater, kind and relieved expression, plain soft pastel blue background, soft natural studio light, head and shoulders centered, clean minimalist lifestyle photography, no text --ar 1:1
+
+
+--------------------------------------------------
+7. 후기 프로필 - 40대 (가족 상담)
+[파일명] images/review-2.jpg
+[권장 비율] 1:1 (예: 512x512, 원형으로 잘려 표시됨)
+[프롬프트]
+Close-up portrait of a warm smiling Korean woman in her mid 40s, shoulder-length dark hair, wearing a soft pink cardigan, gentle and grateful expression, plain soft pastel pink background, soft natural studio light, head and shoulders centered, clean minimalist lifestyle photography, no text --ar 1:1
+
+
+--------------------------------------------------
+8. 후기 프로필 - 30대 (건강·재무 상담)
+[파일명] images/review-3.jpg
+[권장 비율] 1:1 (예: 512x512, 원형으로 잘려 표시됨)
+[프롬프트]
+Close-up portrait of a cheerful Korean man in his early 30s, neat short black hair, wearing a mint green casual shirt, confident and relaxed smile, plain soft pastel mint background, soft natural studio light, head and shoulders centered, clean minimalist lifestyle photography, no text --ar 1:1
+
+
+--------------------------------------------------
+9. 상담 신청 섹션 이미지
+[파일명] images/apply.jpg
+[권장 비율] 4:3 (예: 1600x1200)
+[프롬프트]
+A cozy minimalist consultation table seen from a slight top-down angle: a cup of warm tea with gentle steam, an open notebook with a pen, a small vase with pastel flowers, soft morning sunlight casting gentle shadows, inviting and calm atmosphere that says "you can talk to us", soft pastel palette of powder blue, cream, blush pink and lavender, clean composition with negative space, editorial lifestyle photography, shallow depth of field, no text, no logos --ar 4:3
+
+
+--------------------------------------------------
+[공통 스타일 키워드 - 추가 이미지가 필요할 때 프롬프트 끝에 붙여 쓰세요]
+soft pastel color palette of powder blue, mint, blush pink, butter yellow and lavender, minimalist, clean composition with generous negative space, soft diffused natural light, calm and trustworthy mood, no text, no logos
+
+[네거티브 프롬프트 - Stable Diffusion 등 지원 도구용]
+text, letters, watermark, logo, signature, harsh shadows, oversaturated colors, neon, dark moody lighting, cluttered background, distorted hands, extra fingers, deformed face, low quality, blurry
